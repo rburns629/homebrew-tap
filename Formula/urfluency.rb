@@ -3,30 +3,30 @@
 class Urfluency < Formula
   desc "Shows how your code and agent-assisted work hold up, analyzed locally"
   homepage "https://urfluency.com"
-  version "0.1.9"
+  version "0.2.0"
   license "MIT"
 
   depends_on "git"
 
   on_macos do
     on_arm do
-      url "https://github.com/rburns629/urfluency/releases/download/v0.1.9/urfluency_0.1.9_darwin_arm64.tar.gz"
-      sha256 "5b099a7c3f0932afb38311ac2f676940db3deff3b1a7e20dd10c10943ec9dbed"
+      url "https://github.com/rburns629/urfluency/releases/download/v0.2.0/urfluency_0.2.0_darwin_arm64.tar.gz"
+      sha256 "50e8ef5791620bc4bbf30c6b553f481202be074d30dcc21c6490039d47e1649c"
     end
     on_intel do
-      url "https://github.com/rburns629/urfluency/releases/download/v0.1.9/urfluency_0.1.9_darwin_amd64.tar.gz"
-      sha256 "8fee2b550cd3ebc1085ceebef4abf3f6b14db785014b70cecfeb98abfe676c66"
+      url "https://github.com/rburns629/urfluency/releases/download/v0.2.0/urfluency_0.2.0_darwin_amd64.tar.gz"
+      sha256 "e4777b96bff0e6f2bbb8303ce9e9a1a6bb1d368c5e252a39bee55e825f229372"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rburns629/urfluency/releases/download/v0.1.9/urfluency_0.1.9_linux_arm64.tar.gz"
-      sha256 "bbb9ec4e1418ac8b4a2fd4a46c6c6ea3ff2ef4275319aaf80cc4629940a07b10"
+      url "https://github.com/rburns629/urfluency/releases/download/v0.2.0/urfluency_0.2.0_linux_arm64.tar.gz"
+      sha256 "aa4c3e585e7d3eb182d736d7b3a9a7fab419ae6513f0807c4acc5fefe8e3abdc"
     end
     on_intel do
-      url "https://github.com/rburns629/urfluency/releases/download/v0.1.9/urfluency_0.1.9_linux_amd64.tar.gz"
-      sha256 "7ba4d9a9b89404cd178ca6e7fbdc41d3a596331b4685c921d9b2b42e8fb42aef"
+      url "https://github.com/rburns629/urfluency/releases/download/v0.2.0/urfluency_0.2.0_linux_amd64.tar.gz"
+      sha256 "f45cdaafed3f14d80bb9a6e260d5b8a5bde4d386987884fecce0f86b321e7140"
     end
   end
 
